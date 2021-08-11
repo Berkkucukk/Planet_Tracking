@@ -1,5 +1,5 @@
 import datetime
-
+print("Coding By Berk Küçük")
 date = datetime.datetime.now()
 year=date.year
 month=date.month
@@ -15,10 +15,10 @@ def Jupiter():
 
     if last_date.month==month :
 
-        print("Jüpiter şuan Dünyaya en yakın konumunda :)")
+        print("Jupiter is currently closest to Earth :)")
 
     else:
-        print("Jüpiter malesef yakınlarda gözükmüyor :(")
+        print("Jupiter is not closest to Earth right now :(")
 
 
 def Saturn():
@@ -28,22 +28,22 @@ def Saturn():
 
     if last_date.month==month :
 
-        print("Satürn şuan Dünyaya en yakın konumunda :)")
+        print("Saturn is currently closest to Earth :)")
 
     else:
-        print("Satürn malesef yakınlarda gözükmüyor :(")
+        print("Saturn is not closest to Earth right now :(")
 
-def Neptun():
+def Neptune():
     last_date=datetime.date(2020,9,8)
     while int(last_date.year)<int(year):
         last_date=last_date + datetime.timedelta(days=362)
 
     if last_date.month==month :
 
-        print("Neptün şuan Dünyaya en yakın konumunda :)")
+        print("Neptune is currently closest to Earth :)")
 
     else:
-        print("Neptün malesef yakınlarda gözükmüyor :(")
+        print("Neptune is not closest to Earth right now :(")
 
 def Uranus():
     last_date=datetime.date(2020,11,5)
@@ -52,10 +52,10 @@ def Uranus():
 
     if last_date.month==month :
 
-        print("Uranüs şuan Dünyaya en yakın konumunda :)")
+        print("Uranus is currently closest to Earth :)")
 
     else:
-        print("Uranüs malesef yakınlarda gözükmüyor :(")
+        print("Uranus is not closest to Earth right now :(")
 
 def Merkur():
     last_date=datetime.date(2020,10,5)
@@ -64,10 +64,10 @@ def Merkur():
 
     if last_date.month==month :
 
-        print("Merkür şuan Dünyaya en yakın konumunda :)")
+        print("Merkur is currently closest to Earth :)")
 
     else:
-        print("Merkür malesef yakınlarda gözükmüyor :(")
+        print("Merkur is not closest to Earth right now :(")
 
 def Mars():
     last_date=datetime.date(2018,10,5)
@@ -76,13 +76,13 @@ def Mars():
 
     if last_date.month==month and last_date.year==year :
 
-        print("Mars şuan Dünyaya en yakın konumunda :)")
+        print("Mars is currently closest to Earth :)")
 
     else:
-        print("Mars malesef yakınlarda gözükmüyor :(")
+        print("Mars is not closest to Earth right now :(")
 Jupiter()
 Saturn()
-Neptun()
+Neptune()
 Uranus()
 Merkur()
 Mars()
