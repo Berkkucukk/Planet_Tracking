@@ -1,5 +1,4 @@
 import datetime
-print("Coding By Berk Küçük")
 date = datetime.datetime.now()
 year=date.year
 month=date.month
